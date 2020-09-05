@@ -1,0 +1,11 @@
+Options All -Indexes 
+
+<FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$">
+  	Order allow,deny
+   	Deny from all
+   	Satisfy All
+</FilesMatch>
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/public/ 
+RewriteRule (.*) public/$1 [L]

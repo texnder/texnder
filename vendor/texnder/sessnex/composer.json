@@ -1,0 +1,30 @@
+{
+	"name": "texnder/sessnex",
+    "description": "light and easy session handler for texnder php framework",
+    "type": "library",
+    "keywords": ["session handler", "PHP Session Manager"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inderjeet",
+            "email": "inderjeetchohana1431996@gmail.com"
+        }
+    ],
+
+    "require": {
+        "texnder/bootex" : "1.0.*"
+    },
+
+    "minimum-stability": "stable",
+    "autoload": {
+        "files" : [
+            "Cookie.php",
+            "SessionManager.php",
+            "Auth.php"
+        ],
+
+        "psr-4": {
+            "sessnex\\": ""
+        }
+    }
+}

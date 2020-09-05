@@ -1,0 +1,24 @@
+{
+    "name": "texnder/bootex",
+    "description": "bootstrap operation operator for service integration",
+    "type": "library",
+    "keywords": ["texnder", "bootex", "namespace container"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inderjeet",
+            "email": "inderjeetchohana1431996@gmail.com"
+        }
+    ],
+    
+    "require": {
+        "texnder/aditex" : "1.0.*"
+    },
+
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "bootex\\": "src"
+        }
+    }
+}

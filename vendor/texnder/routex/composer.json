@@ -1,0 +1,29 @@
+{
+	"name": "texnder/routex",
+    "description": "light and fast routing system for PHP framework",
+    "type": "library",
+    "keywords": ["routex", "PHP Router", "http router", "MVC Router for PHP framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inderjeet",
+            "email": "inderjeetchohana1431996@gmail.com"
+        }
+    ],
+
+    "require": {
+        "texnder/aditex" : "1.0.*"
+    },
+
+    "minimum-stability": "stable",
+    "autoload": {
+        "files" : [
+            "helpers.php",
+            "Route.php"
+        ],
+
+        "psr-4": {
+            "Routex\\": ""
+        }
+    }
+}

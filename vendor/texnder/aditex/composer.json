@@ -1,0 +1,19 @@
+{
+	"name": "texnder/aditex",
+    "description": "automatic dependency injector integration for PHP projects",
+    "type": "library",
+    "keywords": ["aditex", "dependency autowiring", "dependency injector", "autowiring"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inderjeet",
+            "email": "inderjeetchohana1431996@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Aditex\\src\\": "src"
+        }
+    }
+}

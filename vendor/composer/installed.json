@@ -1,0 +1,181 @@
+[
+    {
+        "name": "texnder/aditex",
+        "version": "1.0.9",
+        "version_normalized": "1.0.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/texnder/aditex.git",
+            "reference": "1cd222de61b772eb744c566d206df402295928cc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/texnder/aditex/zipball/1cd222de61b772eb744c566d206df402295928cc",
+            "reference": "1cd222de61b772eb744c566d206df402295928cc",
+            "shasum": ""
+        },
+        "time": "2020-07-11T14:03:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Aditex\\src\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Inderjeet",
+                "email": "inderjeetchohana1431996@gmail.com"
+            }
+        ],
+        "description": "automatic dependency injector integration for PHP projects",
+        "keywords": [
+            "Autowiring",
+            "aditex",
+            "dependency autowiring",
+            "dependency injector"
+        ]
+    },
+    {
+        "name": "texnder/bootex",
+        "version": "1.0.9",
+        "version_normalized": "1.0.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/texnder/bootex.git",
+            "reference": "550ac5886a15a90b5953ac4799a2df86e2d5592d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/texnder/bootex/zipball/550ac5886a15a90b5953ac4799a2df86e2d5592d",
+            "reference": "550ac5886a15a90b5953ac4799a2df86e2d5592d",
+            "shasum": ""
+        },
+        "require": {
+            "texnder/aditex": "1.0.*"
+        },
+        "time": "2020-07-15T14:11:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "bootex\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Inderjeet",
+                "email": "inderjeetchohana1431996@gmail.com"
+            }
+        ],
+        "description": "bootstrap operation operator for service integration",
+        "keywords": [
+            "bootex",
+            "namespace container",
+            "texnder"
+        ]
+    },
+    {
+        "name": "texnder/routex",
+        "version": "v1.0.6",
+        "version_normalized": "1.0.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/texnder/routex.git",
+            "reference": "6ca3f7c23aff167b6bb7cb681b369872a1400bae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/texnder/routex/zipball/6ca3f7c23aff167b6bb7cb681b369872a1400bae",
+            "reference": "6ca3f7c23aff167b6bb7cb681b369872a1400bae",
+            "shasum": ""
+        },
+        "require": {
+            "texnder/aditex": "1.0.*"
+        },
+        "time": "2020-07-12T08:42:53+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "helpers.php",
+                "Route.php"
+            ],
+            "psr-4": {
+                "Routex\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Inderjeet",
+                "email": "inderjeetchohana1431996@gmail.com"
+            }
+        ],
+        "description": "light and fast routing system for PHP framework",
+        "keywords": [
+            "HTTP Router",
+            "MVC Router for PHP framework",
+            "php router",
+            "routex"
+        ]
+    },
+    {
+        "name": "texnder/sessnex",
+        "version": "0.07",
+        "version_normalized": "0.07.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/texnder/sessnex.git",
+            "reference": "1701dd1efc6590820c5c0d1d4027a8b47370e71e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/texnder/sessnex/zipball/1701dd1efc6590820c5c0d1d4027a8b47370e71e",
+            "reference": "1701dd1efc6590820c5c0d1d4027a8b47370e71e",
+            "shasum": ""
+        },
+        "require": {
+            "texnder/bootex": "1.0.*"
+        },
+        "time": "2020-07-19T08:21:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Cookie.php",
+                "SessionManager.php",
+                "Auth.php"
+            ],
+            "psr-4": {
+                "sessnex\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Inderjeet",
+                "email": "inderjeetchohana1431996@gmail.com"
+            }
+        ],
+        "description": "light and easy session handler for texnder php framework",
+        "keywords": [
+            "PHP Session Manager",
+            "session handler"
+        ]
+    }
+]
