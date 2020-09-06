@@ -14,3 +14,9 @@
 use Routex\Route;
 
 Route::get('/', 'App\controllers\homeController@index');
+
+// or
+
+Route::get('/texnder', function(){
+	return view('app');
+});
